@@ -37,11 +37,13 @@ Use the **Lab2_dataset.csv** provided.
 
   
 
-- Train a Standard Naiive Bayes model on the training dataset and evaluate on the test set
+- Train the Sklearn SVC model on the training dataset and evaluate on the test set
 
 - Train and evaluate also on the Gaussian and Multinomial Naiive Bayes Classifiers
 
 - Compare between the performance of all models and comment on the reasons behind the differences seen between the three models.
+
+- **Note that the SVC model doesn't make the same assumptions as the other Naiive Bayes models**
 
   
 
@@ -55,9 +57,8 @@ Use the **AB_NYC_2019.csv** dataset for this part.
 
 - Remove outliers based on price per night for a given apartment/home.
 
-- Demonstrate why using other techniques like mean/median/ percentile works.
+- Compare the Z-score approach and the whiskers approach in terms of who is better to remove the outliers in this case.
 
-  
 
 *The task is to come up with a clean dataset that does not have outliers showcasing all the possibilities*
 
@@ -70,4 +71,5 @@ Use the **AB_NYC_2019.csv** dataset for this part.
 
 1.  *Feel free to add additional Markdown elements (description/additional comments)*
 
-2.  *Push the notebooks and HTML files of both parts to your lab-submission fork, and create a PR*
+2.  *Push the notebooks and HTML files of both parts to your lab-submission fork, create a PR, and include the links of the .html and .ipynb files to the PR comment section*
+3.  *It is mandatory to make a submission on eConestoga too before the submission deadline. Include the links of the .html and .ipynb files, do not resubmit the files again on eConestoga.*
